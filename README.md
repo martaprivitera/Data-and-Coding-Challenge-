@@ -47,9 +47,9 @@ lst_current_store = [
 
 In the repository, you will find the following files:
 
-0. test.csv and train.csv
+0. test.csv, train.csv and DataDictionary.xls
 
-files for training ans testing the classifirs at the end.
+files for training and testing the classifiers plus the Data Dictionary for variables description.
 
 1. Preprocessing_DataChallenge_Train_1stPart.ipynb
   
@@ -66,17 +66,19 @@ This notebook includes the second part of the preprocessing for the dataset, foc
 
 - Deepening the descriptive analysis, partially introduced in the first part.
 - Feature selection.
-- Processed CSV Files:
+  
+3. Processed CSV Files:
+
 - processed_df_train_1stpart.csv: Output of the first part of the preprocessing for the training dataset.
 - processed_df_train_2ndpart.csv: Output of the second part of the preprocessing for the training dataset.
 - processed_df_test_1stpart.csv: Output of the first part of the preprocessing for the test dataset.
 - processed_df_test_2ndpart.csv: Output of the second part of the preprocessing for the test dataset.
   
-3. Classifiers_Data_Challenge.ipynb
+4. Classifiers_Data_Challenge.ipynb
    
 This notebook contains the implementation of the classifiers and their application to the provided test dataset.
 
-4. test_predicted.csv
+5. test_predicted.csv
    
 A CSV file with the final predictions
 
